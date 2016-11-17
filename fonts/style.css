@@ -1,17 +1,17 @@
 @font-face {
-  font-family: 'icomoon';
-  src:  url('icomoon.eot?p4o0fd');
-  src:  url('icomoon.eot?p4o0fd#iefix') format('embedded-opentype'),
-    url('icomoon.ttf?p4o0fd') format('truetype'),
-    url('icomoon.woff?p4o0fd') format('woff'),
-    url('icomoon.svg?p4o0fd#icomoon') format('svg');
+  font-family: 'redes';
+  src:  url('redes.eot?dzsseh');
+  src:  url('redes.eot?dzsseh#iefix') format('embedded-opentype'),
+    url('redes.ttf?dzsseh') format('truetype'),
+    url('redes.woff?dzsseh') format('woff'),
+    url('redes.svg?dzsseh#redes') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icomoon' !important;
+  font-family: 'redes' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -25,9 +25,21 @@
 }
 
 .icon-old-phone:before {
-  content: "\e900";
+  content: "\e901";
 }
 .icon-shopping-cart:before {
-  content: "\e901";
+  content: "\e902";
+}
+.icon-google:before {
+  content: "\e900";
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-pinterest:before {
+  content: "\ead1";
 }
 
